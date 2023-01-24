@@ -1,0 +1,38 @@
+
+
+
+
+.swiper {
+  width: 100%;
+  hight:800px;
+}
+
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+ color: #fff;
+ background-color:blue;
+ border-radius:70%;
+ width:100px;
+ hight: 250px;
+ justify-content: center;
+ align-items: center;
+
+}
+
+
+
+
+
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+}
+
+.swiper-slide img {
+
+  width: 100%;
+  object-fit: cover;
+ 
+}
