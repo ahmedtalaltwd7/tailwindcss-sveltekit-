@@ -1,8 +1,6 @@
 <script>
     import "../app.css";
-    import { Toaster } from 'svelte-french-toast';
   </script>
-<Toaster />
 
   <nav class="flex items-center justify-between flex-wrap bg-gray-800 p-2  sticky w-full z-10 top-0 rounded-lg">
       <div class="flex items-center flex-shrink-0 text-white  text-center">
