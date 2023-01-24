@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-			"start": "vite dev",
+			"start": "railway run npm start",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
