@@ -3,11 +3,11 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"setup": "nodejs-16_x, npm-8_x",
-		"install": "npm ci",
-		"build": "npm run build",
-		"start": "npm run dev",
-		"preview": "vite preview"
+		"dev": "svelte-kit dev",
+		"build": "svelte-kit build",
+		"start": "node build/index.js",
+		"package": "svelte-kit package",
+		"preview": "svelte-kit preview"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-auto": "^1.0.0",
