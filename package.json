@@ -6,7 +6,7 @@
 		"setup": "nodejs-16_x, npm-8_x",
 		"install": "npm ci",
 		"build": "npm run build",
-		"start": "vite dev",
+		"start": "npm run dev",
 		"preview": "vite preview"
 	},
 	"devDependencies": {
