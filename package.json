@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-			"start": "run npm start",
+			"start": "run npm start --omit=dev",
 		"build": "vite build",
 		"preview": "vite preview"
 	},
